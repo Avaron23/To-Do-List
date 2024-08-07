@@ -1,0 +1,48 @@
+body{
+    background-image: url("./bg.png");
+}
+
+.container{
+    border-radius: 5%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    width: 700px;
+    height: 600px;
+    background-color: #FFFAFA;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.addTask{
+    margin-top: 60px;
+    text-align: center;
+}
+input:focus{
+    outline-color: bisque;
+}
+.inp{
+    background-color: bisque;
+    width: 400px;
+    border: solid 1px bisque;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.but{
+    cursor: pointer;
+    margin-left: -40px;
+    border: none;
+    background-color: #DEB887;
+    padding: 11px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+button:hover {
+	background: #B8860B;
+	color: black;
+}
